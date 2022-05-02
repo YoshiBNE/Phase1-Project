@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+
+.background {
+    opacity: 0.5;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+#intro {
+    display: inline-block;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Tahoma;
+}
+
+.search {
+    margin-bottom: 50px;
+}
+
+
+#result {
+    width: 90%;
+    height: 300px;
+    margin-left: 4.5%;
+    overflow: auto;
+}
+
+.margin {
+    background-color: snow;
+}
+
+.tableName {
+    width: 37%;
+}
+
+.tabelCountry {
+    width: 20%;
+    text-align: center;
+}
+
+.tableWeb {
+    width: 37%;
+}
+
+.tableCheckbox {
+    width: 5%;
+    text-align: center;
+}

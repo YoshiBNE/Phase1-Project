@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+.background {
+    opacity: 0.5;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+
+
+#my-list {
+    width: 90%;
+    margin 5%;
+    overflow: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.margin {
+    background-color: snow;
+    width: 100%;
+
+}
+
+.tableName {
+    width: 37%;
+}
+
+.tabelCountry {
+    width: 20%;
+    text-align: center;
+}
+
+.tableWeb {
+    width: 37%;
+}
+
+.tableCheck {
+    width: 5%;
+    text-align: center;
+}
+
+#tabel-List td {
+    text-align: center;
+}

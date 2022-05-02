@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+  <script src='index.js'></script>
+  <link rel='stylesheet' href='index.css'/>
+  <title>UniFinderPrototype</title>
+</head>
+<body>
+    <img class="background" src="/source/uniBackground1.jpg">
+    <h1>UniFinerPrototype</h1>
+    <div id="intro">
+        <p1>Are you looking for universities in a specific country? We can give you a list of universities in the country you are interested in!</p1>
+    </div>
+    
+    <div class="search">
+        <form id="uni-search">
+            <input id="country-name" type="text" name="search" placeholder="Enter Country Name"/>
+            <input type="submit" name="search" value="search" />
+        </form>
+    </div>
+    <div id="result">
+        <table class='margin' border="1">
+            <thead class='blue'>
+              <tr class='padding'>
+                <th class='tableName'>Name of University</th>
+                <th class='tableCountry'>Country</th>
+                <th class='tableWeb'>Web Page</th>
+                <th class='tableCheckbox'>Interested</th>
+              </tr>
+            </thead>
+            <tbody id="table-Main">
+            </tbody>
+        </table>
+
+    </div>
+    <div id="favourite">
+        <button>Add to myList</button>
+    </div>
+
+
+</body>
+</html>
