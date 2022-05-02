@@ -2,7 +2,7 @@
 
 Purpose/Function
 
-This web page allows users to find a list of universities in a specified country given by the users. The page only allows the users to see the names of universities before log-in. After the users log-in to the page, it also allows the users to see links to homepages.
+This app allows users to find a list of universities in a specified country submitted by the users. Firstly, the page shows the list of the names and homepages of universities. Then the user is allowed to choose the universities interested in and the app will open a new page to show the chosen ones. The app is able to store the informations of the selected ones for another session as well.   
 
 #####################################
 UniFinder
@@ -18,25 +18,12 @@ Are you looking for universities in a specific country? We can give you a list o
 
 Example:
 
-Name of Uni         |  Country
+Name of Uni         |  Country      |  Homepage             |  Interested       |  
 
-University of ....  |  Australia
+University of ....  |  Australia    | www.australiauni.com  |    [] (check-box) |
 .
 .
 .
 
-Add extra function (if possible) after Login
-
-Name of Uni         |  Country      |  Homepage             |  Interested       |  Note
-
-University of ....  |  Australia    | www.australiauni.com  |    [] (check-box) |  any comment from user (20 words limited)
-.
-.
-.
-
-Update the color of the text of the interested ones into red.
-
-There is a counter for showing how many universities the user has been interested in.
-When "checkbox" is checked, add 1 to the counter each time.
-When the checked "checkbox is un-checked, deduct 1 from the counter.
+When the user clicks the button "Show in a New Page", the checked ones will be presented in a table in a new window. In the new window, the user now is allowed to choose saving the seleted ones to a local storage so the list of selected ones will be kept for next session.
 
