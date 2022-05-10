@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 //tempObj === {"web address":{name: university, country: country, web_pages: wPage}}
         
                 // #######To add a table row for the search result  ##############
-                tableRow.innerHTML = `<td class="tableName">${university}</td><td class="tableCountry">${country}</td><td class="tableWeb"><a href="${wPage}">${wPage}<a></td>`;
+                tableRow.innerHTML = `<td class="tableName">${university}</td><td class="tableCountry">${country}</td><td class="tableWeb"><a href="${wPage}" target="_blank">${wPage}<a></td>`;
 
                 // #######################################################################
 
@@ -90,8 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     // #######################################################################
 
                     // ##### Creating a new object for saving true list in a local drive #####
-                    // const mySaveList = {};
-                    // localStorage.setItem('mySave', JSON.stringify(mySaveList));
+                     const mySaveList = {};
+                     localStorage.setItem('mySave', JSON.stringify(mySaveList));
                     // #######################################################################
                 })
 
